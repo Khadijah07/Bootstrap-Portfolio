@@ -43,7 +43,7 @@
 
 
     <!--Creates the Grid layout-->
-    <div class="container">
+    <div class="container" style="margin-top: 25px">
 
         <!--ROW 1-->
         <div class="row justify-content-around">
@@ -52,6 +52,40 @@
             <div class="col-lg-9" style="background-color: white">
                 <h1 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">Contact</h1>
                 <hr style="margin: 30px 0">
+
+
+                <form>
+                    <div class="form-group">
+                        <label for="formGroupExampleInput"
+                            style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">Name</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput"
+                            placeholder="Place name here">
+                    </div>
+                    <div class="form-group">
+                        <label for="formGroupExampleInput2"
+                            style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">Email</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput2"
+                            placeholder="youremail@domain.com">
+                    </div>
+                </form>
+
+
+                <form class="was-validated">
+                    <div class="mb-3">
+                        <label for="validationTextarea"
+                            style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">Message</label>
+                        <textarea class="form-control is-invalid" id="validationTextarea"
+                            placeholder="Required example textarea" required></textarea>
+                        <div class="invalid-feedback">
+                            Please enter a message in the textarea.
+                        </div>
+
+                        <div class="col-auto">
+                            <button type="submit" class="btn btn-primary mb-2"
+                                style="background-color: #1f7a1f">Submit</button>
+                        </div>
+
+                    </div>
             </div>
 
         </div>
@@ -68,6 +102,10 @@
     <body class="background-image"
         style="background-image: url('https://images.unsplash.com/photo-1564862083038-9f45677eb2a5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80');">
         Bootstrap</body>
+
+
+
+
 
 </body>
 

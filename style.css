@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Jomolhari&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cedarville+Cursive|Jomolhari&display=swap');
 
 .narrow{
     width: 75%;
@@ -16,7 +16,7 @@
 
 body{
     overflow-x: hidden;
-    font-family: 'Jomolhari', serif;
+    font-family: 'Cedarville Cursive', cursive;
     color: #505962;
 }
 

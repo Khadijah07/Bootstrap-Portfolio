@@ -20,6 +20,13 @@ body{
     color: #505962;
 }
 
+.offset:before {
+height: 3.8rem;
+margin-top: -3.8rem;
+content: "";
+display:block;
+}
+
 /*----Navbar ---*/ 
 .navbar{
     text-transform: uppercase;
@@ -52,10 +59,77 @@ body{
 
 .carousel-item{
     height: 100vh;
+
 }
 
+.carousel-caption{
+position: absolute;
+top: 38%;
+text-transform: uppercase;
+width: 100%;
+right: 0;
+left: 0;
+}
 
+.carousel-caption h1{
+    font-size: 3.8rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .8rem black;
+    padding-bottom: 1rem;
 
+}
+
+.carousel-caption h1{
+font-size: 2rem;
+text-shadow: .1rem .1rem .5rem black;
+padding-bottom: 1.6rem;
+
+}
+
+.btn-lg {
+    border-width: medium; 
+    border-radius: 0;
+    font-size: 1.1rem;
+
+}
+
+/*portfolio area */
+
+.jumbotron{
+    border-radius: 0;
+    padding: 3rem 0 2rem;
+
+}
+
+h3.heading {
+font-size: 1.9rem;
+font-weight: 700;
+text-transform: uppercase;
+padding-bottom: 1.9rem;
+}
+
+.heading-underline{
+    width: 3rem;
+    height: .2rem;
+    background-color: orangered;
+    margin: 0 auto 2rem;
+}
+
+.portfolio img{
+    max-width: 100%;
+
+}
+
+.row.no-padding [class*=col-]{
+    padding: 0;
+
+}
+
+.portfolio img:hover{
+transform: scale(1.1);
+cursor: zoom-in;
+}
 
 /*================ BOOTSTRAP BREAK POINTS:
 

@@ -3,52 +3,126 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     <title>About</title>
 </head>
 
-<body>
-    <!--NAVIGATION BAR-->
-    <nav class="navbar navbar-expand-lg" style="background-color:#1f7a1f">
-        <a class="navbar-brand" href="#" style="color:white"
-            style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">Khadijah Grimes</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="index.html" style="color: white">About <span
-                        class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="contact.html" style="color: white">Contact</a>
-                <a class="nav-item nav-link" href="portfolio.html" style="color:white">Portfolio</a>
+
+<body data-spy="scroll" data-target="#navbarResponsive">
+
+
+    <!-- Start Home Section-->
+    <div id="home">
+
+        <!--Navigation-->
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+            <a class="navbar-brand" href="index.html"><img src="photos/logo-image.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home" href="index.html">Home</a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio" href="portfolio.html">Portfolio</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact" href="contact.html">Contact</a>
+                    </li>
+
+
+
+                </ul>
             </div>
-        </div>
-    </nav>
-
-
-
-
-    <!--FOOTER-->
-    <div>
-        <nav class="navbar fixed-bottom" Style="background-color:#1f7a1f ; border-top: 8px solid teal">;
-            <a class=" navbar-brand" style="color:white" href="#">&#169; Copyright</a>
         </nav>
-    </div>
 
 
 
-    <!--Creates the Grid layout-->
-    <div class="container" style="margin-top: 25px">
+        <!--Start Image Slider-->
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="7000">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <!--Slide1-->
+                <div class="carousel-item active" style="background-image: url(codebackground2.jpg);">
+                    <div class="carousel-caption text-center">
+                        <h1>Welcome </h1>
+                        <h3> To my personal portfolio!</h3>
+                        <a class="btn btn-outline-line btn-lg" href="#portfolio">Let the Fun begin!</a>
+                    </div>
+                </div>
+                <!--Slide 2-->
+                <div class="carousel-item" style="background-image: url();">
 
-        <!--ROW 1-->
-        <div class="row justify-content-around">
-            <div class="col-md-12">
+                    <!--End Carousel Inner-->
+
+                </div>
+
             </div>
-            <!--MAIN CONTENT BLOCK-->
+            <!--End Image Slider-->
+
+        </div>
+
+
+        <!-- End Home Section-->
+
+
+        <!--Start Course section-->
+
+        <!--End course section-->
+
+
+
+
+        <!-- Start Portfolio Section-->
+        <div id="portfolio">
+
+
+        </div>
+
+        <!-- End Portfolio Section-->
+
+
+        <!-- Start Contact Section-->
+        <div id="contact">
+
+
+        </div>
+
+        <!-- End Home Section-->
+
+
+
+
+
+
+        <!--FOOTER-->
+        <div>
+            <nav class="navbar fixed-bottom" Style="background-color:#1f7a1f ; border-top: 8px solid teal">;
+                <a class=" navbar-brand" style="color:white" href="#">&#169; Copyright</a>
+            </nav>
+        </div>
+
+
+
+        <!--Creates the Grid layout-->
+        <div class="container" style="margin-top: 25px">
+
+
+            <!-- MAIN CONTENT BLOCK
             <div class="col-lg-9" style="background-color: white">
                 <h1 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">About me</h1>
                 <hr style="margin: 30px 0">
@@ -75,17 +149,21 @@
                     Which is why I am also currently enrolled in a cyber security certification program. I
                     believe that
                     both
-                    my web development and cybersecurity skills combined with my problem-solving and innovative
-                    approach make me an advantageous candidate.
-                </div>
-            </div>
-
-        </div>
+                     my web development and cybersecurity skills combined with my problem-solving and innovative 
+                approach make me an advantageous candidate.  
 
 
         <body class="background-image"
             style="background-image: url('https://images.unsplash.com/photo-1564862083038-9f45677eb2a5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80');">
-            Bootstrap</body>
+            Bootstrap</body> // 
+
+        <!-Script source files-->
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+                integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+                crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+                integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+                crossorigin="anonymous"></script>
 
 </body>
 

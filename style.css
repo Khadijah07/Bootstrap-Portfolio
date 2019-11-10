@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Jomolhari&display=swap');
+
+.narrow{
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+.btn-md{
+    border-width: medium;
+    border-radius: 0;
+    padding: .6rem 1.1rem;
+    text-transform: uppercase;
+    margin: 1rem;
+}
+
+body{
+    overflow-x: hidden;
+    font-family: 'Jomolhari', serif;
+    color: #505962;
+}
+
+/*----Navbar ---*/ 
+.navbar{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+    background: rgba(0,0,0,6) !important;
+}
+
+.navbar-brand img{
+  height: 2rem;  
+}
+
+.navbar-nav li {
+    padding-right: .7rem;
+
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: white;
+    padding-top: .8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: orange;
+}
+
+/*--- Slider ----*/
+
+.carousel-item{
+    height: 100vh;
+}
+
+
+
+
+/*================ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) {...}
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) {...}
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) {...}
+
+ExtraL (xl) devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {...}

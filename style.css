@@ -59,7 +59,6 @@ display:block;
 
 .carousel-item{
     height: 100vh;
-
 }
 
 .carousel-caption{
@@ -78,6 +77,9 @@ left: 0;
     text-shadow: .1rem .1rem .8rem black;
     padding-bottom: 1rem;
 
+}
+img{
+    width:100%;
 }
 
 .carousel-caption h3{
@@ -163,7 +165,7 @@ hr.socket{
 
 /* Media Queries -- */
 
-@media (max-width: 992px){
+@media (max-width: 776px){
     .carousel-caption h1{
         font-size: 2.3rem;
         letter-spacing: .15rem;

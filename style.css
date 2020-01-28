@@ -33,11 +33,12 @@ display:block;
     font-weight: 700;
     font-size: .9rem;
     letter-spacing: .1rem;
-    background: #40474e !important;
+    background: black !important;
 }
 
 .navbar-brand img{
   height: 2rem;  
+  
 }
 
 .navbar-nav li {
@@ -140,7 +141,7 @@ cursor: zoom-in;
 /*Contact*/
 
 footer{
-    background-color: #40474e;
+    background-color: black;
     color: white;
     padding: 2rem 0 3rem;
     margin-top: 1rem;
